@@ -58,7 +58,7 @@ the code would calculate the average by dividing the total sum of the numbers in
 
 # Part 2
 Sources:
-[Link]([https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/](https://www.redhat.com/sysadmin/linux-find-command)https://www.redhat.com/sysadmin/linux-find-command)
+[Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 ## Listing directories and subdirectories
 ```
