@@ -57,10 +57,10 @@ Adding a counter for how many values aren't the lowest number in the array fixes
 the code would calculate the average by dividing the total sum of the numbers in the array by `arr.length - 1`, which only work if there is only one copy of the smallest number in the array. If there are multiple, this code will only account for the removal of one of them. The new code keeps track of the number of numbers that aren't the smallest and then calculate the average by dividing that by the amount of numbers actually summed. This way, the code correctly averages the numbers minus the smallest.
 
 # Part 2
-Sources:
-[Link](https://www.redhat.com/sysadmin/linux-find-command)
+
 
 ## Listing directories and subdirectories
+Source:[Link](https://www.redhat.com/sysadmin/linux-find-command)
 ```
 $ find . -type d
 .
@@ -89,6 +89,7 @@ $ find ./government/ -type d
 This command goes more specifically into the `government` directory and list all of the subdirectories inside `government`. This command could be useful in finding what is stored inside of a directory so you can find what you need quickly.
 
 ## Find By Content
+Source:[Link](https://www.redhat.com/sysadmin/linux-find-command)
 ```
 $ find ./biomed/ -name "*txt" -exec grep -Hi CATCGAT {} \;
 ./biomed/1471-213X-2-8.txt:          CATCGAT, which led to abrogation of the Wnt-3A
@@ -306,6 +307,7 @@ $ find ./plos/ -name "*txt" -exec grep -Hi tumor {} \;
 This command is searching in the files of `plos` for all the lines that include the word tumor and lists every line and file that includes the word.
 This can be useful since the frequency of a word showing up is an indicator of what the content is of that file. If the keyword shows up a lot in a file, the file might be the one you are looking for.
 ## Finding empty files
+Source:[Link](https://www.redhat.com/sysadmin/linux-find-command)
 ```
 $ find . -type f -empty
 ./911report/emptyfile2.txt
@@ -320,6 +322,7 @@ $ find ./911report/ -type f -empty
 ```
 This command finds all of the empty files inside the directory of `911report` and lists them. This can help you find files that are deep inside your directories that you may want to add to or remove to reduce clutter.
 ## limit listing results
+Source:[Link](https://www.redhat.com/sysadmin/linux-find-command)
 ```
 $ find . -maxdepth 1 -type d
 .
