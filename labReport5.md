@@ -44,3 +44,7 @@ and doesn't run together.
 ![alt text](beforeCode.png) \
 Change the second index1 in the third loop to index2 to fix the infinite loop that previously occurred.
 ![alt text](afterCode.png)
+
+# Part 2
+It was super cool to learn how to use vim inside the terminal. While it is really weird and has a large learning curve, it's kinda convenient to be able to edit files from command line. If I don't have access to all of the nice text editors that I use to normall write
+my code, it's good to know how to edit stuff from bash or terminal. I also really though it was cool how we could create, move, and delete things from terminal. Being able to do literally everything from one spot makes it a lot more convenient than going through the file explorer interface or my text editors interface.
